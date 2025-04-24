@@ -1,0 +1,29 @@
+{
+  "name": "perena-whatsapp-capital-markets",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "turbo": "^1.10.14",
+    "typescript": "^5.2.2",
+    "prettier": "^3.0.0"
+  },
+  "packageManager": "npm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
