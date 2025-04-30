@@ -13,7 +13,7 @@ A WhatsApp-based interface for accessing tokenized capital markets on Solana, po
 ## Tech Stack
 
 - Node.js & TypeScript
-- Express.js for API
+- Nest.js for API
 - WhatsApp Business API
 - Solana Web3.js
 - Prisma with PostgreSQL
