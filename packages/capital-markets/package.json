@@ -1,0 +1,25 @@
+{
+  "name": "@perena/capital-markets",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@perena/utils": "workspace:*",
+    "@perena/price-oracle-adapter": "workspace:*",
+    "@perena/numeraire-wrapper": "workspace:*",
+    "@solana/web3.js": "^1.78.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.4",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
